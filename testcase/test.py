@@ -7,7 +7,7 @@ def login():
 
     url="http://admin.5istudy.online/login/"
     data={"username":"18875286857","password":"jia123456"}
-    response = requests_post(url, json=data)
+    response = Request().post(url, json=data)
     print(response)
 
 def info():
@@ -27,8 +27,8 @@ def goods_list():
     print(response)
 
 if __name__ == '__main__':
-    # login()
-    info()
+    login()
+    # info()
     # goods_list()
 
 
