@@ -1,0 +1,41 @@
+#name: "test_yaml"
+#restul: "seccese"
+
+#字典嵌套字典
+#person1:
+#  name: xiaoming
+#  age: 18
+#person2:
+#  name: xiaowang
+#  age: 20
+
+#字典嵌套列表
+#person:
+#  - "a"
+#  - "b"
+#  - "c"
+
+#列表嵌套列表
+#-
+#  - "a"
+#  - "b"
+#  - "c"
+#-
+#  - 1
+#  - 2
+#  - 3
+
+#列表嵌套字典
+#- name: test1
+#  age: 19
+#- name2: test3
+#  age: 99
+#  like: fly
+
+#读取多个文档
+---
+"name": "Alice"
+"age": 25
+---
+"name": "Bob"
+"age": 30
