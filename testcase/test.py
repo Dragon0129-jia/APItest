@@ -1,11 +1,13 @@
 import requests
 
+from config.config import ConfigYaml
 from utils.RequestsUtil import requests_get, requests_post, Request
 
 
 def login():
-
-    url="http://admin.5istudy.online/login/"
+    yaml = ConfigYaml()
+    url = yaml.get_conf_file()
+    url=url+"/login/"
     data={"username":"18875286857","password":"jia123456"}
     response = Request().post(url, json=data)
     print(response)
