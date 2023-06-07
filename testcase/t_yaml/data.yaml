@@ -1,5 +1,5 @@
-name: "test_yaml"
-restul: "seccese"
+#name: "test_yaml"
+#restul: "seccese"
 
 #字典嵌套字典
 #person1:
@@ -33,9 +33,9 @@ restul: "seccese"
 #  like: fly
 
 #读取多个文档
-#---
-#"name": "Alice"
-#"age": 25
-#---
-#"name": "Bob"
-#"age": 30
+---
+"name": "Alice"
+"age": 25
+---
+"name": "Bob"
+"age": 30
