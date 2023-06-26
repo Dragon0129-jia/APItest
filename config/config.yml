@@ -1,3 +1,6 @@
 Base:
+  #log的等级
+  log_level: "debug"
+  log_extension: ".log"
   test:
     url: http://admin.5istudy.online
